@@ -1,0 +1,11 @@
+{
+	"name": "PIZZA-Bot",
+	"version": "1.1.2",
+	"description": "Hot and fresh delivery",
+	"main": "bot.js",
+	"author": "Patches",
+	"dependencies": {
+		"discord.js": "^11.4.2",
+		"dotenv": "^6.2.0"
+	}
+}
