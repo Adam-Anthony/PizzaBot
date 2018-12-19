@@ -22,6 +22,7 @@ client.on('message', msg => {
 
 	if (pizex.test(arg)) {
 		msg.channel.send('<:pizzaball:463530413844070401>');
+		return;
 	}
 	if (bait.test(arg)){
 		var promise = new Promise(function(resolve, reject) {
